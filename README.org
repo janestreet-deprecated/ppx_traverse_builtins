@@ -1,4 +1,5 @@
-* PPX-TRAVERSE-BUILTINS
+#+TITLE: ppx-traverse-builtins
+#+PARENT: ../README.md
 
 Bultin traversers for Ppx\_traverse. See [[https://github.com/janestreet/ppx_traverse][ppx_traverse]] for
 documentation.
