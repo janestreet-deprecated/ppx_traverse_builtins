@@ -1,6 +1,7 @@
 (library
  ((name        ppx_traverse_builtins)
   (public_name ppx_traverse_builtins)
+  (libraries   (ppxlib.traverse_builtins))
   (flags (:standard -safe-string))
   (preprocess  no_preprocessing)
 ))

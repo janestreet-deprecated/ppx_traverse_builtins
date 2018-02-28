@@ -9,6 +9,7 @@ build: [
   ["jbuilder" "build" "-p" name "-j" jobs]
 ]
 depends: [
+  "ppxlib"                {>= "v0.11.0"}
   "jbuilder" {build & >= "1.0+beta12"}
 ]
 available: [ ocaml-version >= "4.04.1" ]
